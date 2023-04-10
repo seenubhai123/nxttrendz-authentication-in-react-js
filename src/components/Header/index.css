@@ -1,0 +1,96 @@
+/* Write your CSS code here */
+* {
+  margin: 0px;
+}
+.nav-bar {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-nav {
+  background-color: #e6f6ff;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .second-nav {
+    display: none;
+  }
+}
+.second-nav-img {
+  height: 20px;
+  width: 20px;
+}
+.brand-logo {
+  margin-top: 15px;
+  height: 40px;
+  width: 190px;
+  margin-left: 60px;
+}
+.mobile-nxt-trend-logo {
+  height: 30px;
+  width: 100px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 769px) {
+  .mobile-nxt-trend-logo {
+    display: none;
+  }
+}
+.nav-logout-image {
+  height: 30px;
+  width: 30px;
+  margin-top: 5px;
+}
+.nav-logout-btn {
+  background: transparent;
+  border: none;
+}
+@media screen and (min-width: 769px) {
+  .nav-logout-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .brand-logo {
+    display: none;
+  }
+}
+.tab-container {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin-top: 20px;
+  list-style-type: none;
+}
+@media screen and (max-width: 768px) {
+  .tab-container {
+    display: none;
+  }
+}
+.para {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.log-out {
+  background-color: #0967d2;
+  color: #ffffff;
+  width: 80px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 40px;
+  padding: 6px;
+}
